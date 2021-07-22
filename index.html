@@ -1,55 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Work</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-        < script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" >
-            <
-            link rel = "stylesheet"
-        href = "style.css" >
-            <
-            script src = "" >
-    </script>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
 </head>
 
 <body>
+    <nav class="navbar-inverse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">St.Xavier's School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="" onmouseout="">
+            ** Feel Free to Ask Any Queries at school@gmail.com **
+        </marquee>
+        <iframe id="video" src="https://www.youtube.com/embed/mpArCflOnsc"></iframe>
+    </div>
     <div class="container">
-        <section id="apps">
-            <h1>Apps</h1>
-            <div class="line"></div>
-            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/ir-g4wuwareCz8x9-Q91Z2O3wil5YLqA2OJ7PRMNX7M/embed"></iframe>
-            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/K412106FY--WGyRbxp7TC5UQnITr2SIjvhIpCIEgKpg/embed"></iframe>
-        </section>
-            <h1>Games</h1>
-            <div class="line"></div>
-            <h2>Click on the Games to Explore</h2>
-            <h5>These games were built in Game Lab, click on the games to play</h5>
-            <div id="myCarousel" class="carousel slide">
-            <div class="carousel-inner">
-            <div class="item active">
-            <center>
-            <a href="https://studio.code.org/projects/playlab/1R9mOG8zBG2WT_mdcKx6RJqLW63z8a_K7qlMYOXDRuE" target="_blank"><img src="Math%20Quiz.png" class="img-responsive"></a>
-            <div class="carousel-content"><p>Math_Quiz</p></div>
-            </center>
+        <div class="page-header" id="contactUs">
+            <h2 class="text-capitalize">Contact Us</h2>
+        </div>
+        <div class="page-header" id="campus">
+            <h2 class="text-capitalize">Campus Life</h2>
+            <div class="row">
+                <div class="campus_maindiv">
+                    <img class="img-responsive" src="Library.jpg">
+                    <h4 class="text-capitalize"><kbd>Library</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Teacher: Mrs. Thomas </h5>
+                    <p class="text-muted text-left">The Kooser library is the perfect place for readers, no matter your age. It has books of all kinds: Fantasy, nonfiiction, chapter.</p>
+                </div>
+                <div class="campus_maindiv">
+                    <img class="img-responsive" src="Computer.jpg">
+                    <h4 class="text-capitalize"><kbd>Computer Lab</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Teacher: Mrs. Swank</h5>
+                    <p>The computer lab is one of the rooms you go into for Specials. The teacher, Mrs. Swank teaches there. We do work on coding, there.</p>
+                </div>
+                <div class="campus_maindiv">
+                    <center>
+                        <img class="img-responsive" src="Cafeteria.jpg">
+                        <h4 class="text-capitalize"><kbd>Cafeteria</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">Lunch Room</h5>
+                        <p class="text-muted text-left">The cafeteria is one of my favorite places. You can either bring lunch from home or eat the school's lunch. The food is very good.</p>
+                    </center>
+                </div>
             </div>
-            <div class="item">
-            <center>
-            <a href="https://studio.code.org/projects/playlab/dcEyMMTmPzTiAWuR4qfBZcE0VTc508UMsXS8zP1u__A" target="_blank"><img src="Guess%20the%20Number.png" class="img-responsive"></a>
-            <div class="carousel-content"><p>Guess_the_Number</p></div>
-            </center>
+        </div>
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">Achievements</h2>
+        </div>
+        <div class="bg-primary achieve_head" data-toggle="collapse" data-target="#achievement1">
+            <i class="fa fa-sort-desc">Food Drives</i>
+        </div>
+        <div id="achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://irp-cdn.multiscreensite.com/e4981800/IMG_2541.jpg" class="img-responsive img-thumbnail">
             </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievement_text">
+                <h5 class="text-success text-left text-capitalize">Ms. Sullivan's 3rd Grade Class Wins!</h5>
+                <p>Each class and grade holds a competition on who donates the most food. In 3rd grade, our class won.</p>
             </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+        <div class="bg-primary achieve_head" data-toggle="collapse" data-target="#achievement1">
+            <i class="fa fa-sort-desc">Drama Club</i>
+        </div>
+        <div id="achievement2" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://cdn.patch.com/users/22843694/2015/03/T800x600/20150355031cbbe0a6f.jpg" class="img-responsive img-thumbnail">
             </div>
-        <section id="chatbot">
-            <h1>Chat Bot</h1>
-            <div class="line"></div>
-            <iframe allow="microphone;" width="350px" height="500px" src="https://console.dialogflow.com/api-client/demo/embedded/1e2ea3fe-26fc-440e-aa63-1c3f04dfe8ea"></iframe>
-        </section>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievement_text">
+                <h5 class="text-success text-left text-capitalize">Kooser Holds Drama Club</h5>
+                <p>Every year, Kooser holds an afterschool class called Drama Club every Monday. You can sign up for it if you want.</p>
+            </div>
+        </div>
+        <div class="bg-primary achieve_head" data-toggle="collapse" data-target="#achievement1">
+            <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="achievement3" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievement_text">
+                <h5 class="text-success text-left text-capitalize"></h5>
+                <p></p>
+            </div>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment">
+            <h2 class="text-capitalize">What's New</h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 school_li">
+                <h4>Kooser Has Many Options For Everyone's Likes</h4>
+                <img src="http://media.npr.org/assets/img/2011/10/05/schoollunch_wide-28f71a165ed603f32f4acf9d1fa27dc04d643e00-s6-c30.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Kooser's lunch staff cooks food for everybody's likings. For example, if you don't eat meat, there are vegetarian options for you. Another good thing is that, while the main part of your lunch could be considered unhealthy, you have to take milk and fruit along with your main lunch.</p>
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 school_li">
+                <h4></h4>
+                <img src="" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"></p>
+            </li>
+        </ul>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
+            <h2 class="text-capitalize">books</h2>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h3>Bill Gates</h3>
+            <h4><mark class="header_books"><i><sup><i class="fa fa-quote-left"></i></sup>Reading is still the main way that I both learn new things and test my understanding.<sup><i class="fa fa-quote-right"></i></sup></i></mark></h4>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize">list of books</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#firstSpaceE">
+            <img src="s1.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">First Space Encyclopaedia</p>
+        </div>
+        <div class="modal fade" id="firstSpaceE">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">First Space Encyclopaedia</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="s1.jpg" class="img-responsive img_modal">
+                        <p class="p_modal"><br>
+                            <a href="https://www.amazon.com/First-Space-Encyclopedia-Reference-Galaxy/dp/1465443436/ref=sr_1_2?crid=2HWW8Q3DU9BW3&dchild=1&keywords=first+space+encyclopedia&qid=1625505919&sprefix=First+Space+en%2Caps%2C184&sr=8-2" target="_blank"><b>Get the Book</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.433177063575!2d-96.70533018458978!3d40.88431187931352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796b90084ef999d%3A0x2f7b4cb5237e3d13!2sKooser%20Elementary%20School!5e0!3m2!1sen!2sus!4v1625610554154!5m2!1sen!2sus" width="500" height="450" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+        <div id="details">
+            <img class="img-responsive img-circle ">
+            <h3>Principal Name: </h3>
+            <h4>Mr. Xavier John Dcosta</h4>
+            <div class="contact_1">
+                <a href="mailto:school@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                </a>
+                <a href="#"></a>
+            </div>
+        </div>
     </div>
 </body></html>
